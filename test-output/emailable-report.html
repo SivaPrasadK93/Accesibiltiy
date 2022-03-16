@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">23.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.axe.tests.Amazonallytest</td><td><a href="#m1"><b>AmazonAllyTest</b>  </a></td><td class="numi">1</td><td>1644026324312</td><td class="numi">7260</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.axe.tests.Amazonallytest:AmazonAllyTest</h2>
+<div style="padding-left:3em">
+<p>Found 6 accessibility violations:
+1) ARIA attributes must conform to valid names: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr?application=axeAPI
+  a) [&quot;.navFooterDescLine&quot;]
+    Fix any of the following:
+      Invalid ARIA attribute name: aria-lable
+
+
+2) Text of buttons and links should not be repeated in the image alternative: https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI
+  a) [&quot;a[aria-label=\&quot;Headsets\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  b) [&quot;a[aria-label=\&quot;Keyboards\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  c) [&quot;a[aria-label=\&quot;Computer\\ mice\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  d) [&quot;a[aria-label=\&quot;Chairs\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  e) [&quot;a[aria-label=\&quot;Apparel\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  f) [&quot;a[aria-label=\&quot;Hats\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  g) [&quot;a[aria-label=\&quot;Action\\ figures\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  h) [&quot;a[aria-label=\&quot;Mugs\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  i) [&quot;a[aria-label=\&quot;Sweatshirts\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  j) [&quot;a[aria-label=\&quot;Joggers\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  k) [&quot;a[aria-label=\&quot;Cardigans\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  l) [&quot;a[aria-label=\&quot;Easy\\ tees\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
+  a) [&quot;#searchDropdownBox&quot;]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [&quot;a[href=\&quot;/?ref_=footer_logo\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.axe.tests.Amazonallytest.AmazonAllyTest(Amazonallytest.java:41)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
