@@ -6,7 +6,6 @@
       <class name="com.axe.tests.Amazonallytest">
         <methods>
           <include name="AmazonAllyTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.axe.tests.Amazonallytest -->
